@@ -7,6 +7,7 @@ const Button = () => {
     });
   };
   return (
+    <div className="flex justify-center w-full">
     <div className="flex flex-col items-center gap-4 mb-10 pt-2 w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">
       <button
         className="bg-gray-700 p-3 rounded w-full max-w-[170px] font-medium text-white md:text-lg transition-colors cursor-pointer"
@@ -27,6 +28,7 @@ const Button = () => {
         Contact Us
       </button>
     </div>
+  </div>
   );
 };
 
